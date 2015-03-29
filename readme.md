@@ -5,7 +5,7 @@ this is a repo to store environment customizations and other setup features for 
 <br>
   
 #### basic idea
-git repo of the home folder ~
+git repo of the home folder ~  
 gitignore all files, add only files you want to check-in to version control.
 to use these files, you will clone the repo to a folder on other machines and symlink or copy the files where they are needed.
 
