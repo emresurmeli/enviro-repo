@@ -9,6 +9,7 @@ git repo of the home folder ~
 gitignore all files, add only files you want to check-in to version control.
 you will want to clone the repo to a folder on other machines and symlink or copy the files where they are needed.
 <br>
+<br>
 
 #### DANGER
 its easy to commit and push a sensitive file (AWS keys, ssh keys, credential caches, etc).  **Don't commit those! Ever!**
