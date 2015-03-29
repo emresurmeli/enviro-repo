@@ -6,7 +6,7 @@ this is a repo to store environment customizations and other setup features for 
   
 #### basic idea
 git repo of the home folder ~  
-gitignore all files, add only files you want to check-in to version control.
+gitignore all files, add only files you want to check-in to version control.  
 to use these files, you will clone the repo to a folder on other machines and symlink or copy the files where they are needed.
 
 this is just for preference files and customizations, handy scripts, or other stuff that would make you sad to re-do on a new machine. this is not useful for binary files, executables, packages, or system-dependent applications.  for example, the node.js package still needs to get reinstalled on a new machine with your local package manager. if you create a setup script that installs npm, updates your package manager, installs node, sets up a directory and bootstrap whatevers, this would be a good file to save on a github repo to help you get quickly set up on a new machine.
