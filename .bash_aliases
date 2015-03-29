@@ -6,6 +6,11 @@ alias l='ls -CF'
 alias l.="ls -lA | egrep '\.'"
 alias ls.='ls -d .* --color=auto'
 
+
+# movement
+alias ..='cd ..'
+alias ...='cd ../..'
+
 # safety aliases
 alias rm='rm -i'
 alias mv='mv -i'
