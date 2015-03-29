@@ -1,0 +1,16 @@
+# ------ enviro-repo------
+# ~ home folder repo of configuration files
+# NOTE: BE VERY CAREFUL ABOUT FILES WITH SENSITIVE INFORMATION!!!
+# even a .bash_history file could be a problem, be very deliberate with git add
+
+# ignore all
+*
+
+# selected files to store
+!.bashrc
+!.bash_aliases
+!.gitignore
+!.inputrc
+!.profile
+!.vimrc
+!readme.md

@@ -1,0 +1,5 @@
+# the global one is set in /etc/inputrc
+# none, visible, or audible
+# ubuntu shell settings
+set bell-style visible
+ 
