@@ -14,3 +14,7 @@
 !.profile
 !.vimrc
 !readme.md
+
+# this doesn't work:
+# !.config/test.txt
+# you have to git add -f <filename> to track it
