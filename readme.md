@@ -1,13 +1,17 @@
 ### enviro repo
 ------
-this is a repo to store environment customizations and other setup features for a linux machine.  it is a git repo with commits of .bashrc, .profile, sublime-text preferences and the like.
+this is a repo to store environment customizations and other setup features for a linux machine.  it is a git repo with commits of .bashrc, .profile, terminal color choices, text editor preferences, and the like.
 <br>
 <br>
   
 #### basic idea
 git repo of the home folder ~
 gitignore all files, add only files you want to check-in to version control.
-you will want to clone the repo to a folder on other machines and symlink or copy the files where they are needed.
+to use these files, you will clone the repo to a folder on other machines and symlink or copy the files where they are needed.
+
+this is just for preference files and customizations, handy scripts, or other stuff that would make you sad to re-do on a new machine. this is not useful for binary files, executables, packages, or system-dependent applications.  for example, the node.js package still needs to get reinstalled on a new machine with your local package manager. if you create a setup script that installs npm, updates your package manager, installs node, sets up a directory and bootstrap whatevers, this would be a good file to save on a github repo to help you get quickly set up on a new machine.
+
+anything more, such as GB backups of assets or machine images, and you are looking for a drive storage/backup solution.
 <br>
 <br>
 
@@ -55,7 +59,7 @@ git push -u origin master
 git remote -v
 ```
 
-now you have an online repo of handy files for when you set up a new machine somewhere. just clone the repo to a folder in you new machine home folder and create symlinks to these files in your new system. 
+now you have an online repo of handy files for when you set up a new machine somewhere. just clone the repo to a folder in your new machine home folder and create symlinks to these files in your new system. 
 <br>
 <br>
 <br>
@@ -64,7 +68,7 @@ now you have an online repo of handy files for when you set up a new machine som
 [a digitalocean article][1]  
 [stackoverflow of course][2]  
 [another stackoverflow][3]  
-another not _really_ helpful [stackoverflow article][4]  
+another not really helpful [stackoverflow article][4] on gitignore subdirectories  
 
 [1]:https://www.digitalocean.com/community/tutorials/how-to-use-git-to-manage-your-user-configuration-files-on-a-linux-vps
 [2]:http://stackoverflow.com/questions/987142/make-gitignore-ignore-everything-except-a-few-files
