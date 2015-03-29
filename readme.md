@@ -1,18 +1,20 @@
 ### enviro repo
 ------
 this is a repo to store environment customizations and other setup features for a linux machine.  it is a git repo with commits of .bashrc, .profile, sublime-text preferences and the like.
-  
+<br>
+<br>
   
 #### basic idea
 git repo of the home folder ~
 gitignore all files, add only files you want to check-in to version control.
 you will want to clone the repo to a folder on other machines and symlink or copy the files where they are needed.
-  
-  
+<br>
+
 #### DANGER
 its easy to commit and push a sensitive file (AWS keys, ssh keys, credential caches, etc).  **Don't commit those! Ever!**
-  
-  
+<br>  
+<br>
+
 #### steps
 
 ```shell
@@ -53,9 +55,10 @@ git remote -v
 ```
 
 now you have an online repo of handy files for when you set up a new machine somewhere. just clone the repo to a folder in you new machine home folder and create symlinks to these files in your new system. 
-  
-  
-  
+<br>
+<br>
+<br>
+
 ##### reference
 [a digitalocean article][1]  
 [stackoverflow of course][2]  
